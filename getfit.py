@@ -188,7 +188,7 @@ def job():
   list = sorted(list, reverse=True, key=lambda x: x[1]) 
 
   #評価をslackに通知するプログラム始まり
-  OAUTH_TOKEN = 'xoxb-1997033449121-1978769063270-A9MR6m1XagfuZnWcUaZ5c4od' 
+  OAUTH_TOKEN = '###############' 
   CHANNEL_NAME = '#general'
   client = slack.WebClient(token=OAUTH_TOKEN)
 
@@ -233,7 +233,7 @@ def job():
 
 
 def oshirase(bunnshou):#GoogleFit同期催促用
-  OAUTH_TOKEN = 'xoxb-1997033449121-1978769063270-A9MR6m1XagfuZnWcUaZ5c4od' 
+  OAUTH_TOKEN = '#############' 
   CHANNEL_NAME = '#おしらせ'
   client = slack.WebClient(token=OAUTH_TOKEN)
   response = client.chat_postMessage(
