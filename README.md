@@ -10,6 +10,7 @@ https://qiita.com/kusunamisuna/items/669fa324d4612dfdd7bf
 使用者自身のスマートフォンやスマートウォッチで歩数を記録、Googlefitに同期させて、サーバーが夜に一括で使用者の記録された歩数を取得し、GoogleSpreadSheetに保存すると同時に、Slackで共有を行っています。
 Googlefiに同期させるということが大事です。2021年時点ではサーバーが歩数を取得できるツールはGooglefitしかありませんでした。アンドロイドであれば、取得した歩数がGooglefitに自動的に保存されるのですが、iPhoneではデフォルトアプリの「ヘルスケア」とGooglefitの歩数を同期させる必要があります。
 GoogleFitに保存してもらったのちに、定期実行設定されたpythonファイルを夜に走らせます。
+![image](https://user-images.githubusercontent.com/91872741/153996261-1956bfbd-8b1a-44f8-9bd5-40fbeb8e85ea.png)
 
 
 ## 準備
