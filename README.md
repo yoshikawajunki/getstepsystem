@@ -18,7 +18,7 @@ GoogleFitに保存してもらったのちに、定期実行設定されたpytho
 
 ・slackのワークスペースに入ってもらうようにしてください。
 
-・pythonファイルからGoogleSpreadSheetに保存するために、準備が必要です。
+・pythonファイルからGoogleSpreadSheetにアクセスするために、準備が必要です。
 https://tanuhack.com/operate-spreadsheet/
 
 ・pythonファイルからSlackに投稿するために、準備が必要です。
